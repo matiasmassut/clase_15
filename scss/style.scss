@@ -4,7 +4,7 @@
 }
 
 header {
-    background: #ffffff;
+    background: none !important;
 
     nav {
         display: flex;
@@ -28,9 +28,11 @@ header {
 }
 
 main {
+
+    font-family: 'Syne', sans-serif;
+    color: #1E1E1E;
+
     .welcome-contact {
-        padding-top: 150px;
-        padding-bottom: 150px;
         font-family: 'Syne', sans-serif;
         color: #1E1E1E;
     }
@@ -41,7 +43,7 @@ main {
     }
     
     h2 {
-        font-size: 28px;
+        font-size: 36px;
         font-weight: 800;
         padding-bottom: 15px;
     }
@@ -84,8 +86,8 @@ footer {
 @media (min-width: 900px) and (max-width: 1920px) {
 
     header {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 150px;
+        padding-right: 150px;
     }
     
     ul {
@@ -93,16 +95,58 @@ footer {
     }
 
     main {
+
+        .welcome-home {
+            padding: 150px 150px 150px 150px;
+    
+            a {
+              padding-right: 50px;  
+            }
+        }
+
+        .welcome-about {
+            padding: 0px 150px 150px 150px;
+
+            img {
+                width: 50%;
+            }
+        }
+
+        .welcome-latest {
+            padding: 0px 150px 150px 150px;
+
+            .card {
+                padding: 50px;
+                border: 2px solid #1E1E1E;
+                border-radius: 0px;
+                
+                h4 {
+                    padding-bottom: 300px;
+                }
+
+            }
+        }
+
+        .welcome-process {
+            padding: 0px 150px 150px 150px;
+
+        }
+
+        .welcome-review {
+            padding: 0px 150px 150px 150px;
+
+        }
+
         .welcome-contact {
             padding-top: 150px;
             padding-bottom: 150px;
-            padding-left: 50px;
-            padding-right: 50px;
+            padding-left: 150px;
+            padding-right: 150px;
         }
     }
 
     footer {
         display: grid;
-        padding: 100px 50px 100px 50px;
+        padding: 100px 150px 100px 150px;
     }
 }

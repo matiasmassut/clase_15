@@ -3,7 +3,7 @@
   padding: 0; }
 
 header {
-  background: #ffffff; }
+  background: none !important; }
   header nav {
     display: flex; }
   header ul {
@@ -16,37 +16,32 @@ header {
   header .nav-link {
     color: #1E1E1E; }
 
-main .welcome-contact {
-  padding-top: 150px;
-  padding-bottom: 150px;
+main {
   font-family: 'Syne', sans-serif;
   color: #1E1E1E; }
-
-main h1 {
-  font-size: 48px;
-  font-weight: 800; }
-
-main h2 {
-  font-size: 28px;
-  font-weight: 800;
-  padding-bottom: 15px; }
-
-main h4 {
-  font-size: 24px;
-  font-weight: 800; }
-
-main h5 {
-  font-size: 16px;
-  font-weight: 400; }
-
-main p {
-  font-size: 18px;
-  font-weight: 400; }
-
-main a {
-  font-size: 16px;
-  font-weight: 800;
-  color: #1E1E1E !important; }
+  main .welcome-contact {
+    font-family: 'Syne', sans-serif;
+    color: #1E1E1E; }
+  main h1 {
+    font-size: 48px;
+    font-weight: 800; }
+  main h2 {
+    font-size: 36px;
+    font-weight: 800;
+    padding-bottom: 15px; }
+  main h4 {
+    font-size: 24px;
+    font-weight: 800; }
+  main h5 {
+    font-size: 16px;
+    font-weight: 400; }
+  main p {
+    font-size: 18px;
+    font-weight: 400; }
+  main a {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1E1E1E !important; }
 
 footer {
   background: #1E1E1E;
@@ -60,15 +55,35 @@ footer {
 /* Desktop-Device */
 @media (min-width: 900px) and (max-width: 1920px) {
   header {
-    padding-left: 50px;
-    padding-right: 50px; }
+    padding-left: 150px;
+    padding-right: 150px; }
   ul {
     justify-content: end; }
+  main .welcome-home {
+    padding: 150px 150px 150px 150px; }
+    main .welcome-home a {
+      padding-right: 50px; }
+  main .welcome-about {
+    padding: 0px 150px 150px 150px; }
+    main .welcome-about img {
+      width: 50%; }
+  main .welcome-latest {
+    padding: 0px 150px 150px 150px; }
+    main .welcome-latest .card {
+      padding: 50px;
+      border: 2px solid #1E1E1E;
+      border-radius: 0px; }
+      main .welcome-latest .card h4 {
+        padding-bottom: 300px; }
+  main .welcome-process {
+    padding: 0px 150px 150px 150px; }
+  main .welcome-review {
+    padding: 0px 150px 150px 150px; }
   main .welcome-contact {
     padding-top: 150px;
     padding-bottom: 150px;
-    padding-left: 50px;
-    padding-right: 50px; }
+    padding-left: 150px;
+    padding-right: 150px; }
   footer {
     display: grid;
-    padding: 100px 50px 100px 50px; } }
+    padding: 100px 150px 100px 150px; } }
