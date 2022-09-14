@@ -2,19 +2,15 @@
   margin: 0;
   padding: 0; }
 
-header {
-  background: none !important; }
-  header nav {
-    display: flex; }
-  header ul {
-    list-style: none; }
-  header li {
-    font-family: 'Syne', sans-serif;
-    font-size: 16px;
-    font-weight: 800;
-    color: #1E1E1E; }
-  header .nav-link {
-    color: #1E1E1E; }
+.navbar-inverse {
+  background: #1E1E1E !important;
+  border-radius: 0px !important;
+  border: none !important; }
+
+li {
+  font-family: 'Syne', sans-serif;
+  font-size: 16px;
+  font-weight: 800; }
 
 main {
   font-family: 'Syne', sans-serif;
@@ -24,11 +20,11 @@ main {
     color: #1E1E1E; }
   main h1 {
     font-size: 48px;
-    font-weight: 800; }
+    font-weight: 800;
+    padding-bottom: 30px; }
   main h2 {
     font-size: 36px;
-    font-weight: 800;
-    padding-bottom: 15px; }
+    font-weight: 800; }
   main h4 {
     font-size: 24px;
     font-weight: 800; }
@@ -36,10 +32,10 @@ main {
     font-size: 16px;
     font-weight: 400; }
   main p {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 400; }
   main a {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 800;
     color: #1E1E1E !important; }
 
@@ -54,21 +50,33 @@ footer {
 
 /* Desktop-Device */
 @media (min-width: 900px) and (max-width: 1920px) {
-  header {
-    padding-left: 150px;
-    padding-right: 150px; }
-  ul {
-    justify-content: end; }
+  .navbar-header {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  .navbar-nav {
+    display: inline-block !important; }
+    .navbar-nav a {
+      color: #ffffff !important; }
   main .welcome-home {
     padding: 150px 150px 150px 150px; }
+    main .welcome-home p {
+      padding-bottom: 25px; }
     main .welcome-home a {
       padding-right: 50px; }
   main .welcome-about {
     padding: 0px 150px 150px 150px; }
     main .welcome-about img {
-      width: 50%; }
+      width: 100%;
+      border: 2px solid #1E1E1E; }
+    main .welcome-about p {
+      padding-top: 50px; }
   main .welcome-latest {
     padding: 0px 150px 150px 150px; }
+    main .welcome-latest h2 {
+      padding-bottom: 50px; }
+    main .welcome-latest a {
+      text-align: center;
+      padding-top: 50px; }
     main .welcome-latest .card {
       padding: 50px;
       border: 2px solid #1E1E1E;
@@ -77,13 +85,110 @@ footer {
         padding-bottom: 300px; }
   main .welcome-process {
     padding: 0px 150px 150px 150px; }
+    main .welcome-process h2 {
+      padding-bottom: 15px; }
+    main .welcome-process h4 {
+      padding-bottom: 50px; }
+    main .welcome-process .process {
+      padding: 50px;
+      border: 2px solid #1E1E1E;
+      margin-top: 50px; }
   main .welcome-review {
     padding: 0px 150px 150px 150px; }
+    main .welcome-review h2 {
+      padding-bottom: 50px; }
+    main .welcome-review img {
+      padding-bottom: 30px; }
+    main .welcome-review .review {
+      padding: 50px;
+      border: 2px solid #1E1E1E; }
   main .welcome-contact {
     padding-top: 150px;
     padding-bottom: 150px;
     padding-left: 150px;
     padding-right: 150px; }
+    main .welcome-contact h2 {
+      padding-bottom: 50px; }
   footer {
     display: grid;
-    padding: 100px 150px 100px 150px; } }
+    padding: 50px; }
+    footer p {
+      padding-top: 50px; } }
+
+@media (max-width: 899px) {
+  .navbar-header {
+    padding-top: 25px;
+    padding-bottom: 25px; }
+  .navbar-nav a {
+    color: #ffffff !important; }
+  main {
+    font-family: 'Syne', sans-serif;
+    color: #1E1E1E;
+    padding: 0px !important; }
+    main h1 {
+      font-size: 32px;
+      font-weight: 800; }
+    main h2 {
+      font-size: 24px;
+      font-weight: 800;
+      padding-bottom: 25px; }
+    main h4 {
+      font-size: 22px;
+      font-weight: 800; }
+    main h5 {
+      font-size: 16px;
+      font-weight: 400; }
+    main p {
+      font-size: 18px;
+      font-weight: 400; }
+    main a {
+      font-size: 18px;
+      font-weight: 800;
+      color: #1E1E1E !important; }
+  .welcome-home {
+    padding: 100px 15px 100px 15px; }
+    .welcome-home p {
+      padding-bottom: 25px; }
+    .welcome-home a {
+      padding-right: 52px; }
+  .welcome-about {
+    padding: 0px 15px 100px 15px; }
+    .welcome-about .img-profile {
+      padding-top: 25px; }
+    .welcome-about img {
+      width: 100%;
+      border: 2px solid #1E1E1E; }
+  .welcome-latest {
+    padding: 0px 15px 100px 15px; }
+    .welcome-latest .card {
+      padding: 10px;
+      border: 2px solid #1E1E1E;
+      border-radius: 0px;
+      margin-top: 30px; }
+      .welcome-latest .card h4 {
+        padding-bottom: 200px; }
+      .welcome-latest .card h5 {
+        font-size: 18px; }
+    .welcome-latest a {
+      text-align: center;
+      padding-top: 30px; }
+  .welcome-process {
+    padding: 0px 15px 100px 15px; }
+    .welcome-process h4 {
+      padding-bottom: 30px; }
+    .welcome-process .process {
+      padding: 30px;
+      border: 2px solid #1E1E1E;
+      margin-top: 30px; }
+  .welcome-review {
+    padding: 0px 15px 100px 15px; }
+    .welcome-review img {
+      padding-bottom: 15px;
+      width: 15%; }
+    .welcome-review .review {
+      padding: 30px;
+      border: 2px solid #1E1E1E; }
+  footer {
+    padding: 30px; }
+    footer p {
+      padding-top: 30px; } }

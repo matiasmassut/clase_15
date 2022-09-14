@@ -2,81 +2,78 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 	<!-- CSS only -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<link rel="shortcut icon" href="assets/img/favicon.svg">
-	<title>Matias Massut</title>
+	<title>Matias Massut - UI/UX Designer</title>
 </head>
 <body>
-	<div class="container-fluid">
-		<header>
-			<nav class="navbar navbar-expand-lg bg-light">
-				<div class="col-12 col-lg-2">
-					<a class="navbar-brand" href="index.html"> <img src="assets/img/logo.svg" alt="Logo"></a>
+	<header>
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+			<div class="col-12 col-lg-6">
+				<div class="navbar-header">
+					<a class="" href="index.html"> <img src="assets/img/favicon.svg" alt="Logo"></a>
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+					</button>
 				</div>
-	
-				<div class="col-12 col-lg-10" id="navbarNav">
-					<ul class="nav">
-						<li class="nav-item">
-						  <a class="nav-link" href="index.html">Home</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link" href="#">About</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link" href="#">Projects</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link" href="#">Services</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link" href="contact.html">Contact</a>
-						</li>
-					  </ul>
+			</div>	
+			<div class="col-12 col-lg-6">
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="about.html">About</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
 				</div>
-			</nav>
-		</header>
+			</div>
+			</div>
+		</nav>
+	</header>
 
+	<div class="container-fluid">
             <main class="container-fluid">
-                <div class="row">
-                    <div class="welcome-home col-12 col-lg-6">
-                        <h1>Hello Stranger</h1>
-                        <p>To create experiences that are impactful, intuitive, and perhaps, even a bit delightful.</p>
+                <div class="welcome-home row">
+                    <div class="col-12 col-lg-7">
+                        <h1>Hey there!</h1>
+                        <p>I'm a UX/UI designer that uses my background in business to create meaningful digital experiences.</p>
                         <a class="" href="contact.html">Let's talk</a>
-                        <a class="" href="#">Check out my work</a>
+                        <!-- <a class="" href="projects.html">Check out my work</a> -->
                     </div>
                 </div>
 
                 <div class="welcome-about row align-items-center">
                     <div class="col-12 col-lg-6">
-                        <h2>Hello ;)</h2>
-                        <h2>My name is Matias</h2>
-                        <p>I'm a UX/UI Designer based in Mendoza, Argentina with over five years experience conceptualizing and crafting digital products, helping businesses expand their capacity for impact 🚀</p>
+                        <h2>Hello ;)<br> My name is Matias</h2> 
+                        <p>I'm a UX/UI Designer based in Mendoza, Argentina with over five years experience conceptualizing and crafting digital products, helping businesses expand their capacity for impact 🚀<br><br>I'm comfortable working on all aspects of the product cycle, from running ideation workshops and research to prototyping journeys, crafting beautiful UIs and delivering production-ready assets.</p>
                     </div>
-                    <div class="col-12 col-lg-6">
+                    <div class="img-profile col-12 col-lg-6">
                         <img src="assets/img/img-profile.jpg">
                     </div>
                 </div>
 
 				<div class="welcome-latest row">
-					<div class="col-12 col-lg-10">
+					<div class="col-12 col-lg-12">
 						<h2>Latest projects</h2>
 					</div>
-					<div class="col-12 col-lg-2 text-end">
-						<a href="#" role="button">All projects</a>
-					</div>
+					
 					<div class="row">
 						<div class="col-sm-6">
 						  <div class="card">
 							<div class="card-body">
 								<h5 class="card-title">Position Job</h5>
 								<h4 class="card-title">Name Project</h4>
-							  <a href="#">Go somewhere</a>
+							  <a href="#">View project</a>
 							</div>
 						  </div>
 						</div>
@@ -85,43 +82,37 @@
 							<div class="card-body">
 							  <h5 class="card-title">Position Job</h5>
 							  <h4 class="card-title">Name Project</h4>
-							  <a href="#">Go somewhere</a>
+							  <a href="#">View project</a>
 							</div>
 						  </div>
 						</div>
 					</div>
+					<a href="#" role="button">View all projects</a>		
 				</div>
-
 				<div class="welcome-process row">
 					<div class="col-12">
-						<h2>Work Process</h2>
+						<h2>Stage of work</h2>
+						<p>In my work, I follow the basic steps for productive collaboration and unique design</p>
 					</div>
 
-					<div class="col-12">
-						<h4>1. BRIEF AND ANALYTICS</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consectetur ante et eros pellentesque facilisis.
-
-							Donec vitae vehicula leo. Phasellus vulputate sapien at magna iaculis, sed luctus massa convallis.
-							
-							Donec vitae vehicula leo. Phasellus vulputate sapien at magna.</p>
+					<div class="process col-12">
+						<h4>1. BRIEFING</h4>
+						<p>We conduct an interview, and then i learn all the details of a project and the specific details of a business. I research competitors, collect references, form ideas for a project, and develop a structure for a future site.</p>
 					</div>
 
-					<div class="col-12">
-						<h4>2. PROTOTYPE AND DESIGN</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consectetur ante et eros pellentesque facilisis.
-
-							Donec vitae vehicula leo. Phasellus vulputate sapien at magna iaculis, sed luctus massa convallis.
-							
-							Donec vitae vehicula leo. Phasellus vulputate sapien at magna.</p>
+					<div class="process col-12">
+						<h4>2. PROTOTYING</h4>
+						<p>Using the collected info I think over the structure of the website and the composition on each block, then I develope a description and schematic representation of the future project.</p>
 					</div>
 
-					<div class="col-12">
-						<h4>3. LAYOUT AND LAUNCH</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consectetur ante et eros pellentesque facilisis.
+					<div class="process col-12">
+						<h4>3. DESIGN CONCEPT</h4>
+						<p>After approving the prototype by the client I start developing a design concept. On this step, I determine the most appropriate fonts, colors, and the site grid. Everything should reinforce each other.</p>
+					</div>
 
-							Donec vitae vehicula leo. Phasellus vulputate sapien at magna iaculis, sed luctus massa convallis.
-							
-							Donec vitae vehicula leo. Phasellus vulputate sapien at magna.</p>
+					<div class="process col-12">
+						<h4>4. FINALIZATION</h4>
+						<p>On this stage, I create adaptative versiones of the websites and UI-Kits ready for transmission to the developers or assembling it on the constructor at your request.</p>
 					</div>
 				</div>
 
@@ -130,33 +121,35 @@
 						<h2>What client say?</h2>
 					</div>
 
-					<div class="col-12">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consectetur ante et eros pellentesque facilisis.
+					<div class="review col-12">
 
-							Donec vitae vehicula leo. Phasellus vulputate sapien at magna iaculis, sed luctus massa convallis.
-							
-							Donec vitae vehicula leo. Phasellus vulputate sapien at magna.</p>
-						<h4>John Doe</h4>
-						<h5>CEO, IT Company</h5>
+						<img src="assets/img/comillas.svg">
+						<p>It's always a pleasure working with Matías, he is good at communicating and delivering results. He brings 100% to each project and gets work done when it's needed the most.</p>
+						<h4>Alan Linush</h4>
+						<h5>COO, FaradaySec</h5>
 					</div>
 				</div>
-            </main>
-		<footer>
-			<div class="row">
-				<div class="col-12 col-lg-4 text-start">
-					<a href="../index.html"> <img src="assets/img/favicon.svg" alt="Logo"></a>
-				</div>
-				<div class="col-12 col-lg-4 text-center">
-					<p>© Matias Massut - 2022 - All right reserved</p>
-				</div>
-				<div class="col-12 col-lg-4 text-end">
-					<a href="../index.html" style="width: 50px;"> <img src="assets/img/instagram.svg" alt="Logo"></a>
-					<a href="../index.html" style="width: 50px;"> <img src="assets/img/linkedin.svg" alt="Logo"></a>
-				</div>
-			</div>
-		</footer>
+            </main>	
 	</div>
+	<footer>
+		<div class="row">
+			<div class="col-6 col-lg-6 text-start">
+				<a href="index.html"> <img src="assets/img/favicon.svg" alt="Logo"></a>
+			</div>
+			
+			<div class="col-6 col-lg-6 text-end">
+				<a href="https://www.behance.net/matiasmass525c" style="width: 50px;"> <img src="assets/img/behance.svg" alt="Logo"></a>
+				<a href="https://www.linkedin.com/in/matias-massut-a7453914a/" style="width: 50px;"> <img src="assets/img/linkedin.svg" alt="Logo"></a>
+			</div>
+
+			<div class="col-12 col-lg-12 text-center">
+				<p>© Matias Massut - 2022 - All right reserved</p>
+			</div>
+		</div>
+	</footer>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>

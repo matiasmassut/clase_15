@@ -2,29 +2,16 @@
     margin: 0;
     padding: 0;
 }
+.navbar-inverse {
+    background: #1E1E1E !important;
+    border-radius: 0px !important;
+    border: none !important;
+}
 
-header {
-    background: none !important;
-
-    nav {
-        display: flex;
-    }
-
-    ul {
-        list-style: none;
-    }
-
-    li {
-        font-family: 'Syne', sans-serif;
-        font-size: 16px;
-        font-weight: 800;
-        color: #1E1E1E;
-    }
-
-    .nav-link {
-        color: #1E1E1E;
-    }
-    
+li {
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
 }
 
 main {
@@ -40,12 +27,12 @@ main {
     h1 {
         font-size: 48px;
         font-weight: 800;
+        padding-bottom: 30px;
     }
     
     h2 {
         font-size: 36px;
         font-weight: 800;
-        padding-bottom: 15px;
     }
     
     h4 {
@@ -59,12 +46,12 @@ main {
     }
     
     p {
-        font-size: 18px;
+        font-size: 24px;
         font-weight: 400;
     }
 
     a {
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 800;
         color: #1E1E1E !important;
     }
@@ -81,39 +68,61 @@ footer {
         font-weight: 400;
     }
 }
-/* Desktop-Device */
 
+/* Desktop-Device */
 @media (min-width: 900px) and (max-width: 1920px) {
 
-    header {
-        padding-left: 150px;
-        padding-right: 150px;
+    .navbar-header {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
-    
-    ul {
-        justify-content: end;
+    .navbar-nav {
+        display: inline-block !important;
+        a {
+            color: #ffffff !important;
+        }
     }
 
     main {
 
         .welcome-home {
             padding: 150px 150px 150px 150px;
-    
-            a {
-              padding-right: 50px;  
+
+            p {
+                padding-bottom: 25px;
             }
+            a {
+                padding-right: 50px;  
+            }
+
         }
 
         .welcome-about {
             padding: 0px 150px 150px 150px;
 
             img {
-                width: 50%;
+                width: 100%;
+                border: 2px solid #1E1E1E;
+            }
+
+            p {
+                padding-top: 50px;
             }
         }
 
         .welcome-latest {
             padding: 0px 150px 150px 150px;
+
+            h2 {
+                padding-bottom: 50px;
+                
+            }
+
+            a {
+                text-align: center;
+                padding-top: 50px;
+            }
+    
 
             .card {
                 padding: 50px;
@@ -129,11 +138,41 @@ footer {
 
         .welcome-process {
             padding: 0px 150px 150px 150px;
+            
+
+            h2 {
+                padding-bottom: 15px;
+                
+            }
+
+            h4 {
+                padding-bottom: 50px;
+                
+            }
+
+            .process {
+                padding: 50px;
+                border: 2px solid #1E1E1E;
+                margin-top: 50px;
+            }
 
         }
 
         .welcome-review {
             padding: 0px 150px 150px 150px;
+            
+            h2 {
+                padding-bottom: 50px;
+            }
+
+            img{
+                padding-bottom: 30px;
+            }
+
+            .review {
+                padding: 50px;
+                border: 2px solid #1E1E1E;
+            }
 
         }
 
@@ -142,11 +181,163 @@ footer {
             padding-bottom: 150px;
             padding-left: 150px;
             padding-right: 150px;
+
+            h2 {
+                padding-bottom: 50px;
+                
+            }
         }
     }
 
     footer {
         display: grid;
-        padding: 100px 150px 100px 150px;
+        padding: 50px;
+
+        p {
+            padding-top: 50px;
+        }
     }
+}
+
+@media (max-width: 899px) {
+
+
+    .navbar-header {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .navbar-nav {
+        a {
+            color: #ffffff !important;
+        }
+    }
+
+    main {
+        font-family: 'Syne', sans-serif;
+        color: #1E1E1E;
+        padding: 0px !important;
+    
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+        }
+        
+        h2 {
+            font-size: 24px;
+            font-weight: 800;
+            padding-bottom: 25px;
+        }
+        
+        h4 {
+            font-size: 22px;
+            font-weight: 800;
+        }
+        
+        h5 {
+            font-size: 16px;
+            font-weight: 400;
+        }
+        
+        p {
+            font-size: 18px;
+            font-weight: 400;
+        }
+    
+        a {
+            font-size: 18px;
+            font-weight: 800;
+            color: #1E1E1E !important;
+        }
+    }
+
+    .welcome-home {
+        padding: 100px 15px 100px 15px;
+        
+        p {
+            padding-bottom: 25px;
+        }
+        a {
+            padding-right: 52px;  
+        }
+    }
+
+    .welcome-about {
+
+        padding: 0px 15px 100px 15px;
+
+        .img-profile {
+            padding-top: 25px;
+        }
+
+        img {
+            width: 100%;
+            border: 2px solid #1E1E1E;
+        }
+    }
+
+    .welcome-latest {
+        padding: 0px 15px 100px 15px;
+
+        .card {
+            padding: 10px;
+            border: 2px solid #1E1E1E ;
+            border-radius: 0px;
+            margin-top: 30px;
+
+            h4 {
+                padding-bottom: 200px;
+            }
+
+            h5 {
+                font-size: 18px;
+            }
+        }
+
+        a {
+            text-align: center;
+            padding-top: 30px;
+        }
+
+    }
+
+    .welcome-process {
+        padding: 0px 15px 100px 15px;
+        
+        h4 {
+            padding-bottom: 30px;
+            
+        }
+
+        .process {
+            padding: 30px;
+            border: 2px solid #1E1E1E;
+            margin-top: 30px;
+        }
+    }
+
+    .welcome-review {
+        padding: 0px 15px 100px 15px;
+
+            img{
+                padding-bottom: 15px;
+                width: 15%;
+            }
+
+            .review {
+                padding: 30px;
+                border: 2px solid #1E1E1E;
+            }
+
+            
+    }
+
+    footer {
+        padding: 30px;
+
+        p {
+            padding-top: 30px;
+        }
+    }
+
 }
