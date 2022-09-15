@@ -40,7 +40,8 @@ main {
   main a {
     font-size: 18px;
     font-weight: 800;
-    color: #1E1E1E !important; }
+    color: #1E1E1E !important;
+    text-decoration: underline; }
 
 footer {
   background: #1E1E1E;
