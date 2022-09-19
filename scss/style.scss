@@ -122,6 +122,18 @@ footer {
             }
         }
 
+        .about {
+            padding: 150px 150px 150px 150px;
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                padding-top: 50px;
+            }
+        }
+
         .welcome-latest {
             padding: 0px 150px 150px 150px;
 
@@ -148,6 +160,33 @@ footer {
             }
         }
 
+        .projects {
+            padding: 150px 150px 150px 150px;
+
+            h2 {
+                padding-bottom: 50px;
+                
+            }
+
+            a {
+                text-align: center;
+                padding-top: 50px;
+            }
+    
+
+            .card {
+                padding: 50px;
+                border: 2px solid #1E1E1E;
+                border-radius: 0px;
+                margin-bottom: 50px;
+                
+                h4 {
+                    padding-bottom: 300px;
+                }
+
+            }
+        }
+
         .welcome-process {
             padding: 0px 150px 150px 150px;
             
@@ -163,6 +202,33 @@ footer {
             }
 
             .process {
+                padding: 50px;
+                border: 2px solid #1E1E1E;
+                margin-top: 50px;
+            }
+
+        }
+
+        .work-experience {
+            padding: 0px 150px 150px 150px;
+            
+
+            h2 {
+                padding-bottom: 15px;
+                
+            }
+
+            h4 {
+                padding-bottom: 30px;
+                
+            }
+
+            h5 {
+                padding-bottom: 15px;
+                
+            }
+
+            .jobs {
                 padding: 50px;
                 border: 2px solid #1E1E1E;
                 margin-top: 50px;
@@ -197,6 +263,26 @@ footer {
             h2 {
                 padding-bottom: 50px;
                 
+            }
+        }
+
+        .values {
+            padding: 0px 150px 150px 150px;
+
+            h2 {
+                padding-bottom: 50px;
+            }
+
+            h4 {
+                padding-bottom: 25px;
+            }
+
+            p{
+                padding-bottom: 50px;
+            }
+
+            hr {
+                border: 2px solid #1e1e1e;
             }
         }
     }
@@ -295,6 +381,18 @@ footer {
         }
     }
 
+    .about {
+        padding: 100px 15px 100px 15px;
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            padding-top: 25px;
+        }
+    }
+
     .welcome-latest {
         padding: 0px 15px 100px 15px;
 
@@ -303,6 +401,31 @@ footer {
             border: 2px solid #1E1E1E ;
             border-radius: 0px;
             margin-top: 30px;
+
+            h4 {
+                padding-bottom: 200px;
+            }
+
+            h5 {
+                font-size: 18px;
+            }
+        }
+
+        a {
+            text-align: center;
+            padding-top: 30px;
+        }
+
+    }
+
+    .projects {
+        padding: 100px 15px 100px 15px;
+
+        .card {
+            padding: 10px;
+            border: 2px solid #1E1E1E ;
+            border-radius: 0px;
+            margin-bottom: 30px;
 
             h4 {
                 padding-bottom: 200px;
@@ -334,6 +457,22 @@ footer {
             margin-top: 30px;
         }
     }
+
+    .work-experience {
+        padding: 0px 15px 100px 15px;
+        
+        h4 {
+            padding-bottom: 30px;
+            
+        }
+
+        .jobs {
+            padding: 30px;
+            border: 2px solid #1E1E1E;
+            margin-top: 30px;
+        }
+    }
+
 
     .welcome-review {
         padding: 0px 15px 100px 15px;

@@ -76,6 +76,12 @@ footer {
       width: 100%; }
     main .welcome-about p {
       padding-top: 50px; }
+  main .about {
+    padding: 150px 150px 150px 150px; }
+    main .about img {
+      width: 100%; }
+    main .about p {
+      padding-top: 50px; }
   main .welcome-latest {
     padding: 0px 150px 150px 150px; }
     main .welcome-latest h2 {
@@ -89,6 +95,20 @@ footer {
       border-radius: 0px; }
       main .welcome-latest .card h4 {
         padding-bottom: 300px; }
+  main .projects {
+    padding: 150px 150px 150px 150px; }
+    main .projects h2 {
+      padding-bottom: 50px; }
+    main .projects a {
+      text-align: center;
+      padding-top: 50px; }
+    main .projects .card {
+      padding: 50px;
+      border: 2px solid #1E1E1E;
+      border-radius: 0px;
+      margin-bottom: 50px; }
+      main .projects .card h4 {
+        padding-bottom: 300px; }
   main .welcome-process {
     padding: 0px 150px 150px 150px; }
     main .welcome-process h2 {
@@ -96,6 +116,18 @@ footer {
     main .welcome-process h4 {
       padding-bottom: 50px; }
     main .welcome-process .process {
+      padding: 50px;
+      border: 2px solid #1E1E1E;
+      margin-top: 50px; }
+  main .work-experience {
+    padding: 0px 150px 150px 150px; }
+    main .work-experience h2 {
+      padding-bottom: 15px; }
+    main .work-experience h4 {
+      padding-bottom: 30px; }
+    main .work-experience h5 {
+      padding-bottom: 15px; }
+    main .work-experience .jobs {
       padding: 50px;
       border: 2px solid #1E1E1E;
       margin-top: 50px; }
@@ -115,6 +147,16 @@ footer {
     padding-right: 150px; }
     main .welcome-contact h2 {
       padding-bottom: 50px; }
+  main .values {
+    padding: 0px 150px 150px 150px; }
+    main .values h2 {
+      padding-bottom: 50px; }
+    main .values h4 {
+      padding-bottom: 25px; }
+    main .values p {
+      padding-bottom: 50px; }
+    main .values hr {
+      border: 2px solid #1e1e1e; }
   footer {
     display: grid;
     padding: 50px; }
@@ -170,6 +212,12 @@ footer {
       padding-top: 25px; }
     .welcome-about img {
       width: 100%; }
+  .about {
+    padding: 100px 15px 100px 15px; }
+    .about img {
+      width: 100%; }
+    .about p {
+      padding-top: 25px; }
   .welcome-latest {
     padding: 0px 15px 100px 15px; }
     .welcome-latest .card {
@@ -184,11 +232,33 @@ footer {
     .welcome-latest a {
       text-align: center;
       padding-top: 30px; }
+  .projects {
+    padding: 100px 15px 100px 15px; }
+    .projects .card {
+      padding: 10px;
+      border: 2px solid #1E1E1E;
+      border-radius: 0px;
+      margin-bottom: 30px; }
+      .projects .card h4 {
+        padding-bottom: 200px; }
+      .projects .card h5 {
+        font-size: 18px; }
+    .projects a {
+      text-align: center;
+      padding-top: 30px; }
   .welcome-process {
     padding: 0px 15px 100px 15px; }
     .welcome-process h4 {
       padding-bottom: 30px; }
     .welcome-process .process {
+      padding: 30px;
+      border: 2px solid #1E1E1E;
+      margin-top: 30px; }
+  .work-experience {
+    padding: 0px 15px 100px 15px; }
+    .work-experience h4 {
+      padding-bottom: 30px; }
+    .work-experience .jobs {
       padding: 30px;
       border: 2px solid #1E1E1E;
       margin-top: 30px; }
